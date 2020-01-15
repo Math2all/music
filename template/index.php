@@ -4,7 +4,7 @@
  * 音乐搜索器 - 模版文件
  *
  * @author  MaiCong <i@maicong.me>
- * @link    https://github.com/maicong/music
+ * @link    https://github.com/Math2all/music
  * @since   1.5.10
  *
  */
@@ -37,25 +37,6 @@ if (!defined('MC_CORE')) {
     <link rel="stylesheet" href="static/css/style.css?v<?php echo MC_VERSION; ?>">
 </head>
 <body>
-    <!--[if lte IE 9]>
-        <script type="text/javascript">
-            (function(){
-                var t = '你的浏览器也太挫了吧！大佬换一个噻！';
-                document.body.innerHTML = t;
-                document.body.style.fontSize = '66px';
-                document.body.style.textAlign = 'center';
-                document.body.style.background = '#000';
-                document.body.style.color = '#fff';
-                if (prompt('输入代号 666666 销毁此电脑: ', '') === '666666') {
-                    alert('拜拜了您呢~')
-                } else {
-                    alert('总感觉哪里不对');
-                }
-                window.open('', '_self', '');
-                window.close();
-            })();
-        </script>
-    <![endif]-->
     <section class="am-g about">
         <div class="am-container am-margin-vertical-xl">
             <header class="am-padding-vertical">
@@ -199,7 +180,7 @@ if (!defined('MC_CORE')) {
         </div>
     </section>
     <footer class="footer">
-        <p class="am-text-sm">v<?php echo MC_VERSION; ?>&nbsp;&copy;&nbsp;<?php echo date('Y'); ?>&nbsp;<a href="https://github.com/maicong/music/releases" target="_blank" rel="author">源码下载</a>&nbsp;<a href="https://github.com/maicong/music/issues" target="_blank">意见反馈</a>&nbsp;<a href="javascript:void(0)" data-am-modal="{target: '#copr-info'}">免责声明</a></p>
+        <p class="am-text-sm">v<?php echo MC_VERSION; ?>&nbsp;&copy;&nbsp;<?php echo date('Y'); ?>&nbsp;<a href="https://github.com/Math2all/music/releases" target="_blank" rel="author">源码下载</a>&nbsp;<a href="https://github.com/Math2all/music/issues" target="_blank">意见反馈</a>&nbsp;<a href="javascript:void(0)" data-am-modal="{target: '#copr-info'}">免责声明</a></p>
     </footer>
     <script src="//cdn.staticfile.org/jquery/1.11.1/jquery.min.js"></script>
     <script src="//cdn.staticfile.org/amazeui/2.3.0/js/amazeui.min.js"></script>
